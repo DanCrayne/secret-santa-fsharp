@@ -1,0 +1,28 @@
+{
+    "people":
+    [
+        {
+            "Zelda":"zelda@example.com"
+        },
+        {
+            "Link":"link@example"
+        },
+        {
+            "Gannon":"gannon@example.com"
+        },
+        {
+            "Bokoblin":"bokoblin@example.com"
+        }
+    ],
+
+    "exclusions":
+    [
+        {
+            "Zelda": "Link"
+        },
+        {
+            "Gannon": "Bokoblin"
+        }
+
+    ]
+}
