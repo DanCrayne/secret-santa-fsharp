@@ -2,6 +2,6 @@
 
 [<EntryPoint>]
 let main argv =
-    printfn "%s" (getPeople "Data/People.json")
+    printfn "%d" (getPeople "Data/People.json").Length
 
     0

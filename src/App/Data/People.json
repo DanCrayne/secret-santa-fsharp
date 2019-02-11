@@ -1,28 +1,18 @@
-{
-    "people":
-    [
-        {
-            "Zelda":"zelda@example.com"
-        },
-        {
-            "Link":"link@example"
-        },
-        {
-            "Gannon":"gannon@example.com"
-        },
-        {
-            "Bokoblin":"bokoblin@example.com"
-        }
-    ],
-
-    "exclusions":
-    [
-        {
-            "Zelda": "Link"
-        },
-        {
-            "Gannon": "Bokoblin"
-        }
-
-    ]
-}
+[
+    {
+        "name":"Zelda",
+        "email": "zelda@example.com"
+    },
+    {
+        "name": "Link",
+        "email":"link@example"
+    },
+    {
+        "name":"Gannon",
+        "email":"gannon@example.com"
+    },
+    {
+        "name":"Bokoblin",
+        "email":"bokoblin@example.com"
+    }
+]

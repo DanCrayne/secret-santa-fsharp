@@ -8,5 +8,11 @@ type Person = {
     email: string
 }
 
+type People = Person []
+
+let deserializePeople peopleRawText =
+    JsonConvert.DeserializeObject<People>(peopleRawText)
+
 let getPeople filePath =
-    File.ReadAllText(filePath)
+    let people = File.ReadAllText(filePath)
+    deserializePeople people
